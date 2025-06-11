@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/mint.jpeg');
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #d5f5e3; /* pastel mint green as fallback */
+  background-image: url('C:\Users\welcome\OneDrive\Apps\Desktop\project\VERSEMINT\frontend\src\assets\fresh-leaf-background-free-vector.jpg'); /* adjust path if needed */
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.content-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #2e8b57;
+  margin-bottom: 2rem;
+}
+
+.get-started-button {
+  background: linear-gradient(to right, #a8e6cf, #dcedc1);
+  color: #1e5631;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.get-started-button:hover {
+  background: linear-gradient(to right, #b2f0d3, #e6f6d6);
+}
+/* FOOTER styles here */
+.footer {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  color: #6b7280; /* text-gray-500 */
+  width: 100%;
+  bottom: 0;
+  padding: 0.75rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.75); /* softer transparent white */
+  border-top: 1px solid #a8e6cf;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.05); /* subtle top shadow */
+  backdrop-filter: blur(5px); /* glass effect */
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.footer-icon-link {
+  color: #6b7280; /* text-gray-500 */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icon-link:hover {
+  color: #2563eb; /* text-blue-600 */
+  transform: scale(1.2); /* slight bounce/grow on hover */
+}
