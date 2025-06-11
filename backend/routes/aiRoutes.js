@@ -10,7 +10,7 @@ router.get('/bulk', getSummaries);
 router.post('/create', createSummary);
 router.delete('/delete/:id', deleteSummary);
 
-// ✅ Cleaned up route
+// ✔ Correct endpoint under /api
 router.post('/summarize-pdf', upload.single('file'), summarizeDocument);
 
 module.exports = router;
