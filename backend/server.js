@@ -7,7 +7,7 @@ const app=express();
 const port=process.env.PORT||5000;
 const allowedOrigins=[
     'https://versemint-app.vercel.app',
-    'http://localhost:5173'
+    'https://versemint-app-jesminmofi-cses-projects.vercel.app'
 ];
 app.use(cors({
     origin:function(origin,callback){
@@ -22,7 +22,7 @@ app.use(cors({
 }));
 connectDB();
 app.use(express.json());
-app.use('/',aiRouter);
+app.use('/api',aiRouter);
 app.listen(port,()=>{
     console.log(`VerseMint running at http://localhost:${port}`);
 });
