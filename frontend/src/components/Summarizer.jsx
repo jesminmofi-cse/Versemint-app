@@ -21,7 +21,7 @@ const Summarizer = () => {
     formData.append('file', file);
 
     try {
-      const res = await axios.post("https://versemint-backend.onrender.com/api/summarize-pdf", formData, {
+      const res = await axios.post("https://versemint-app.onrender.com/api/summarize-pdf", formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setSummary(res.data.summary);
