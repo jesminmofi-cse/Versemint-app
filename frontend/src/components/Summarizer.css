@@ -5,7 +5,7 @@
   justify-content: center;
   height: 80vh;
   background-color: #d5f5e3; /* pastel mint green as fallback */
-  background-image: url('C:\Users\welcome\OneDrive\Apps\Desktop\project\VERSEMINT\frontend\src\assets\mint.jpg');
+  background-image: url('frontend/src/assets/mint.jpg');
   background-repeat: repeat;
   background-size: auto;
   background-position: center;
