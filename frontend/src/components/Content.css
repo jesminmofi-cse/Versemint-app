@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('https://img.freepik.com/premium-vector/green-leaves-seamless-floral-background-pattern_1120558-11330.jpg');
+  background-image: url('https://media.istockphoto.com/id/1288624106/vector/vector-seamless-pattern-with-tropical-foliate-twigs-for-greeting-cards-wrapping-paper.jpg?s=612x612&w=0&k=20&c=I9IUHJk7XCpGjXbP7lWfyEOebBreMWqbuvkKIc4ggLs=');
   background-repeat: repeat;
   background-size: auto;
   background-position: center;
@@ -15,7 +15,7 @@ body {
   justify-content: center;
   height: 80vh;
   background-color: #d5f5e3; /* pastel mint green as fallback */
-  background-image: url('https://img.freepik.com/premium-vector/green-leaves-seamless-floral-background-pattern_1120558-11330.jpg'); /* adjust path if needed */
+  background-image: url('https://media.istockphoto.com/id/1288624106/vector/vector-seamless-pattern-with-tropical-foliate-twigs-for-greeting-cards-wrapping-paper.jpg?s=612x612&w=0&k=20&c=I9IUHJk7XCpGjXbP7lWfyEOebBreMWqbuvkKIc4ggLs='); /* adjust path if needed */
   background-repeat: repeat;
   background-size: auto;
   background-position: center;
